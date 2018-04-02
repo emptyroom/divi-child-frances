@@ -22,7 +22,23 @@
 
 }
 
-#yt-link, #fb-link, #tw-link {
+span.mobile_menu_bar:before {
+    color: #660b15 !important;
+}
+
+.et_mobile_menu {
+	
+	border-top: 3px solid #660b15 !important;
+	border-color: #660b15;
+}
+
+#et-secondary-nav li ul, #top-header {
+
+  background-color: #1c1c1c;
+
+}
+
+#yt-link, #fb-link, #tw-link, #git-link {
 
   color: #878787;
 
@@ -43,5 +59,11 @@
 #tw-link:hover {
 
   color: #0084b4
+
+}
+
+#git-link:hover {
+
+  color: #c92240
 
 }
